@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Mobile Shop Management',
-    'version': '14.0.2.1.0',
-    'summary': 'Odoo 14 Development',
+    'version': '14.0',
+    'summary': 'Odoo 14 Development by student',
     'sequence': -100,
     'description': """Odoo 14 Development""",
     'category': 'Productivity',
