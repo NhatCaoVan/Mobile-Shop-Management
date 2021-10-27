@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
-
+    <record id="view_order_form_inherited" model="ir.ui.view">
+        <field name="name">sale.order.inherited</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+<!--           ??? hide payment term unsuccessful-->
+<!--            <field name="date_order" position="after">-->
+<!--                <field name="payment_term_id" invisible="1" require="1"/>-->
+<!--            </field>-->
+            <field name="payment_term_id" position="after">
+                <field name="buy_type"/>
+            </field>
+    </field>
+    </record>
+<!--    <record id="view_order_form_inherited" model="ir.ui.view">-->
+<!--        <field name="name">sale.order.inherited</field>-->
+<!--        <field name="model">sale.order</field>-->
+<!--        <field name="inherit_id" ref="sale.view_order_form"/>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <field name="date_order" position="after">-->
+<!--                <field name="payment_term_id" invisible="1"/>-->
+<!--            </field>-->
+<!--        </field>-->
+<!--    </record>-->
 </odoo>
