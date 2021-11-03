@@ -8,9 +8,9 @@
 <!--           ??? hide payment term unsuccessful-->
 <!--            <field name="date_order" position="after">-->
 <!--                <field name="payment_term_id" invisible="1" require="1"/>-->
-<!--            </field>-->
             <field name="payment_term_id" position="after">
                 <field name="buy_type"/>
+                <field name="employee_id"/>
             </field>
     </field>
     </record>

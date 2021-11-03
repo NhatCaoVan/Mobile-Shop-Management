@@ -1,3 +1,2 @@
 from . import sale_order
-from . import product
-from . import employee
+from . import lot_serial
