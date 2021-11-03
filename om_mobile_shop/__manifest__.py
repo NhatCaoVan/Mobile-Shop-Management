@@ -10,11 +10,12 @@
     'maintainer': 'Group 8',
     'website': 'https://www.due.udn.vn',
     'license': 'LGPL-3',
-    'depends': ['sale', 'stock'],
+    'depends': ['sale', 'stock', 'product'],
     'data': [
         'security/ir.model.access.csv',
         'views/sale_order.xml',
-        'views/lot_serial.xml'
+        'views/lot_serial.xml',
+        'views/product.xml'
     ],
     'demo': [],
     'qweb': [],
